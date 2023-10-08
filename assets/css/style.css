@@ -1,0 +1,273 @@
+ /* --=================== Start All Section Common CSS Style Here===================-- */
+ :root {
+     --h1_color: #1d1d1d;
+     --text-color: #11161E;
+     --primary_color_orange_light: #FF6F61;
+     --primary_color_orange_dark: #FF5645;
+     --primary_color_dark: #151A32;
+     --white_color: #FFFFFF;
+     --bg_color_light: #F1F1F1;
+     --bg_color_dark: #F1F3F4;
+     --black_color: #000000;
+     --p_color: #444444;
+     --primary_font: 'Josefin Sans', sans-serif;
+     --p_font: 'Poppins', sans-serif;
+ }
+
+ .section_content h1 {
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 74px;
+ }
+
+ .section_content h2 {
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 58px;
+ }
+
+ .section_content h3 {
+     color: var(--text-color);
+     font-size: 36px;
+     line-height: 46px;
+     font-weight: 700;
+ }
+
+ .section_content h4 {
+     color: var(--white_color);
+     font-size: 24px;
+     line-height: 34px;
+     font-weight: 700;
+ }
+
+ .section_content h5 {
+     color: var(--text-color);
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+
+ .section_content h6 {
+     color: var(--text-color);
+     font-size: 18px;
+     line-height: 28px;
+     font-weight: 600;
+
+ }
+
+ .section_content p {
+     color: var(--p_color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+
+ }
+
+ .section_content .p_sm {
+     color: var(--p_color);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .section_content .sec_btn_sm {
+     color: var(--text-color);
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 28px;
+ }
+
+ .section_content .sec_btn_lg {
+     color: var(--white_color);
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 30px;
+     background-color: var(--primary_color_orange_light);
+ }
+
+ .section_content p {
+     color;
+     font-size: 16px;
+     line-height: 28px;
+     font-weight: 400;
+ }
+
+ /* --=================== End All Section Common CSS Style Here===================-- */
+
+
+
+ /* -- =================== Start Header Section CSS Style Here =================== -- */
+ #header {
+     background-color: var(--white_color);
+ }
+
+ #header .navbar #main_navbar .navbar-nav a {
+     color: var(--text-color);
+     font-family: var(--primary_font);
+     font-size: 16px;
+     line-height: 26px;
+     font-weight: 400;
+     text-transform: uppercase;
+     padding: 37px 22.5px;
+     transition: 0.5s ease;
+     border: 1px solid transparent;
+ }
+
+ #header .navbar #main_navbar .navbar-nav a:hover {
+     color: var(--primary_color_orange_light);
+
+ }
+
+ #header .navbar ul.ecommerce_cart li {
+     display: inline-flex;
+ }
+
+
+ #header .navbar ul.ecommerce_cart li a i {
+     position: relative;
+     color: var(--primary_color_dark);
+     width: 24px;
+     height: 24px;
+     font-size: 20px;
+     padding: 0px 10px;
+ }
+
+ #header .navbar ul.ecommerce_cart li a span {
+     text-align: center;
+     color: var(--white_color);
+     position: absolute;
+     top: 10%;
+     right: 0;
+     width: 12px;
+     height: 12px;
+     font-size: 10px;
+     line-height: 11.5px;
+     border-radius: 50%;
+     background-color: var(--primary_color_orange_light);
+     transform: translate(50%);
+
+ }
+
+ /* -- =================== Start Header Section CSS Style Here =================== -- */
+
+ #home_page_bannar {
+     position: relative;
+ }
+
+
+ #home_page_bannar .bannar_sliding_box .bannar_sliding_item {
+     height: 1205px;
+     background-size: cover !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content h1 {
+     padding: 14px 0 16px;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content .sec_btn_lg {
+     padding: 13px 37px;
+     margin-top: 29px;
+ }
+
+ #home_page_bannar .bannar_sliding_item .section_content p {
+     color: var(--h1_color);
+ }
+
+
+ #home_page_bannar .arrow_box {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ #home_page_bannar .arrow_box .arrow_items {
+     height: 100px;
+     background-color: transparent;
+     position: relative;
+     width: 100%;
+ }
+
+ #home_page_bannar .arrow_box i {
+     position: absolute;
+     top: 50%;
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     font-size: 30px;
+     line-height: 40px;
+     border-radius: 50%;
+     background-color: var(--primary_color_orange_light);
+ }
+
+ #home_page_bannar .arrow_box .arrow_items .prev_arrow {
+     left: 0;
+     transform: translate(-100px, -50%);
+
+ }
+
+ #home_page_bannar .arrow_box .arrow_items .next_arrow {
+     right: 0;
+     transform: translate(100px, -50%);
+ }
+
+ #home_page_bannar .dot_box {
+     position: absolute;
+     left: 50%;
+     bottom: 30%;
+     height: 100px;
+     background-color: transparent;
+     transform: translate(-50%, 50%);
+ }
+
+ #home_page_bannar .dot_box .dot_items {
+     position: relative;
+     height: 100%;
+     padding: 0;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul {
+     position: absolute;
+     top: 20px;
+     left: 0;
+     display: inline-flex;
+     align-items: center;
+     padding: 0;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 10px;
+     height: 6px;
+     margin: 0 6px;
+     border-radius: 5px;
+     padding: 0;
+     background-color: var(--white_color);
+ }
+
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li.slick-active {
+     width: 29px;
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li button {
+     font-size: 0;
+     width: 0;
+     height: 100%;
+     border: none;
+     border-radius: 5px;
+
+ }
+
+ #home_page_bannar .dot_box .dot_items ul.slick-dots li.slick-active button {
+     width: 100%;
+     background-color: var(--primary_color_orange_light);
+ }
